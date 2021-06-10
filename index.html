@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellie's Portfolio</title>
+    <meta name="description" content="Portfolio for Ellie">
+    <meta name="author" content="Ellie Kim">
+    <link rel="icon" type="image/png" href="imgs/my_icon2.png">
+    <script src="https://kit.fontawesome.com/785160409e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img src="imgs/my_icon.png" alt="my logo" style="width:10%">
+            <a her="#" style="vertical-align:top">Ellie</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active" data-menu="home">Home</li>
+            <li class="navbar__menu__item" data-menu="about">About</li>
+            <li class="navbar__menu__item" data-menu="skills">Skills</li>
+            <li class="navbar__menu__item" data-menu="works">Projects</li>
+            <li class="navbar__menu__item" data-menu="contact">Contact</li>
+        </ul>
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home__container">
+            <img src="imgs/my_photo.jpeg" alt="Ellie Profile Photo" class="home__photo"/>
+            <h1 class="home__title">Hello, I'm Ellie Kim! </h1>
+            <h2 class="home__description"> A Software Developer in Los Angeles, USA</h2>
+            <button class="home__contact">Contact Me</button>
+        </div>  
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section_container">
+        <h1>About Me</h1>
+        <p></p>
+        <div class="about__stacks">
+            <div class="stack">
+                <div class="stack__icon">
+                    <i class="fa fa-users"></i>
+                </div>
+                <h2 class="stack__title">Adaptable</h2>
+                <div class="stack__description">
+                    The reason <br>why I came this far.
+                </div>
+            </div>
+            <div class="stack">
+                <div class="stack__icon">
+                    <i class="fa fa-handshake-o"></i>
+                </div>
+                <h2 class="stack__title">Responsible</h2>
+                <div class="stack__description">
+                    My work is on my end.
+                </div>
+            </div>
+            <div class="stack">
+                <div class="stack__icon">
+                    <i class="fa fa-smile-o"></i>
+                </div>
+                <h2 class="stack__title">Honest</h2>
+                <div class="stack__description">
+                    My strength<br> when I face problems.
+                </div>
+            </div>
+            <div class="stack">
+                <div class="stack__icon">
+                    <i class="fa fa-rocket"></i>
+                </div>
+                <h2 class="stack__title">Challenging</h2>
+                <div class="stack__description">
+                    New things make <br> my life interesting! 
+                </div>
+            </div>  
+        </div>
+        <div class="myinfo_note note">
+            <p>
+                I'm originally from a small country, South Korea.<br>Fortunately, I've had various experience by studying aboard and working in 3 different fields in USA.
+            </p>
+            <p>
+                My work experience started as a data driven-data scientist from a bioinformatics company, Macrogen.<br>
+                After I moved to California, my career changed to software development with the previous backend experience.<br>
+                I used to develop internal systems for finance, transports and inventory in my second company, KW International.<br>
+                In the current company, I'm working on developing internal software and software as a service with the 3rd party APIs.    
+            </p>
+            <p>
+                I don't hesitate to learn new things wherever I am.<br>
+                Of course, it's painful at the first time. However, I think it would be worth for my future career, even if that's bad experience.<br>
+                So, I always eager to grow myself with great team members and want to settle successfully in the USA!
+            </p>
+        </div>
+        <div class="about__jobs">
+            <div class="job">
+                <img src="imgs/jobs/thekoreatimes-logo.jpeg" alt="thekoreatimes" class="job__logo" style="width:5%">
+                <div class="job__description">
+                    <p class="job__name">
+                        Software Developer at The Korea Times
+                    </p>
+                    <p class="job__period">
+                        September 2020 - Current, Los Angeles CA
+                    </p>
+                </div>
+            </div>
+            <div class="job">
+                <img src="imgs/jobs/kw-logo.png" alt="kw" class="job__logo" style="width:5%">
+                <div class="job__description">
+                    <p class="job__name">
+                        Software Developer at Kw International
+                    </p>
+                    <p class="job__period">
+                        July 2019 - September 2020 (1yr 2mos), Carson CA
+                    </p>
+                </div>
+            </div>
+            <div class="job">
+                <img src="imgs/jobs/macrogen-logo.jpg" alt="macrogen" class="job__logo" style="width:5%">
+                <div class="job__description">
+                    <p class="job__name">
+                        Data Scientist at Macrogen Corp.
+                    </p>
+                    <p class="job__period">
+                        July 2017 - October 2018 (1yr 3mos), Rockville, MD 
+                    </p>
+                </div>
+            </div>
+            <div class="job">
+                <img src="imgs/jobs/umn-logo.jpg" alt="umn" class="job__logo" style="width:5%">
+                <div class="job__description">
+                    <p class="job__name">
+                        Bachelor of Statistics at University of Minnesota
+                    </p>
+                    <p class="job__period">
+                        September2014 - May 2017, Minneapolis, MN
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <section class="section_container">
+            <h1>My Stills and Attributes</h1>
+            <div class="skill_note note" align="left">
+                - Problem solving<br>
+                - Learning new technologies<br>
+                - Ability to plan and schedule work on time<br>
+                - Document work flow, guide, and any issues<br>
+                - Capable of working as part of a team and independently<br>
+                - Experience with QA for full system development lifecyle including designing, developing and implementing test plans<br>
+            </div>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Technical Skills</h3>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Frontend</span>
+                        </div>
+                        <div class="skill__description">
+                            <span>Vanilla Javascript, jQuery, ES6, React JS, Ajax, Axios </span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:70%">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Backend</span>
+                        </div>
+                        <div class="skill__description">
+                            <span>PHP(Laravel, Codeigniter)</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:85%">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Backend</span>
+                        </div>
+                        <div class="skill__description">
+                            <span>Python, C#, Visual Basic(.Net)</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:70%">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Database</span>
+                        </div>
+                        <div class="skill__description">
+                            <span>MySQL, MS SQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:85%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>3rd Parties APIs</span>
+                        </div>
+                        <div class="skill__description">
+                            <span>SAP, Shopify, Stripe, Twilio, Google SMTP, Google Analytics </span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:80%">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span>Git</span></li>
+                            <li><span>Postman</span></li>
+                            <li><span>AWS Code Commit, EC2, RDS</span></li>
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>PHPStorm</span></li>
+                            <li><span>R</span></li>
+                            <li><span>SAS</span></li>
+                            <li><span>Linux</span></li>
+                            <li><span>Magento 2</span></li>
+                            <li><span>FileZilla</span></li>
+                            <li><span>Putty</span></li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Slack</span></li>
+                            <li><span>Redmine</span></li>
+                            <li><span>Zoom</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Works -->
+    <section id="works" class="section">
+        <section class="section_container">
+            <h1>My Projects</h1>
+            <div class="work__categories">
+                <button class="category__btn selected" data-projectfilter="all">
+                    All
+                    <span class="category__count">12</span>
+                </button>
+                <button class="category__btn" data-projectfilter="frontend">
+                    Front End
+                    <span class="category__count">2</span>
+                </button>
+                <button class="category__btn" data-projectfilter="backend">
+                    Back End
+                    <span class="category__count">7</span>
+                </button>
+                <button class="category__btn" data-projectfilter="data_science">
+                    Data Science
+                    <span class="category__count">3</span>
+                </button>
+            </div>
+            <div class="work__projects">
+                <a
+                    href="https://github.com/elliekim312/ReactJS_ToDoList_byForm"
+                    class="project"
+                    target="blank"
+                    data-type="frontend"
+                    >
+                    <img src="imgs/projects/JS_portfolio_Ellie.png" class="project__img" alt="JS Portfolio" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>Vanilla Javascript</h3>
+                        <span>Ellie's Portfoilo</span>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/elliekim312/PHP_Stripe_APIs"
+                    class="project"
+                    target="blank"
+                    data-type="backend"
+                    >
+                    <img src="imgs/projects/stripe_api.PNG" class="project__img" alt="Stripe API" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>PHP with Stripe APIs</h3>
+                        <span>Payment with Stripe APIs</span>
+                    </div>
+                </a>
+                <a
+                    href="https://drive.google.com/drive/folders/1pOXpHeNFhUXAUVgs5ayAzKNvGnHncFk0?usp=sharing"
+                    class="project"
+                    target="blank"
+                    data-type="backend"
+                    >
+                    <img src="imgs/projects/PHP_Laravel_List_Blade.PNG" class="project__img" alt="PHP Laravel" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>PHP Laravel with Javascript ES6 and jQuery</h3>
+                        <span>Internal ERP system development</span>
+                    </div>
+                </a>
+                <a
+                    href="http://www.koreatimes.com/townads"
+                    class="project"
+                    target="blank"
+                    data-type="backend"
+                    >
+                    <img src="imgs/projects/kTimes_townad.png" class="project__img" alt="PHP Codeigniter Local Adv." style="width: 70%;">
+                    <div class="project__description">
+                        <h3>PHP Codeigniter with jQuery</h3>
+                        <span>Display LA local advertising</span>
+                    </div>
+                </a>
+                <a
+                    href="https://promotion.koreatimes.com/radioseoul/kakao-channel"
+                    class="project"
+                    target="blank"
+                    data-type="backend"
+                    >
+                    <img src="imgs/projects/kTimes_Event1.png" class="project__img" alt="PHP Codeigniter Event1" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>PHP Codeigniter</h3>
+                        <span>Backend development of this event for new and existing customer</span>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/elliekim312/PHP_Mailchimp_APIs"
+                    class="project"
+                    target="blank"
+                    data-type="backend"
+                    >
+                    <img src="imgs/projects/kTimes_mailchimp.png" class="project__img" alt="PHP Mailchimp APIs" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>PHP with Mailchimp APIs</h3>
+                        <span>Add subscribers, send emails, get webhooks</span>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/elliekim312/Python_Selenium_Crawling"
+                    class="project"
+                    target="blank"
+                    data-type="backend"
+                    >
+                    <img src="imgs/projects/Python_Crawling101_google_imgs.png" class="project__img" alt="Python Crawling" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>Python Selenium</h3>
+                        <span>Crawling 101 - Google Images</span>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/elliekim312/ReactJS_ToDoList_byForm"
+                    class="project"
+                    target="blank"
+                    data-type="frontend"
+                    >
+                    <img src="imgs/projects/ReactJS.png" class="project__img" alt="React JS" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>React JS</h3>
+                        <span>To Do List</span>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/elliekim312/PHP_getShopifyProducts_byGraphQL"
+                    class="project"
+                    target="blank"
+                    data-type="backend"
+                    >
+                    <img src="imgs/projects/GraphQL_Shopify.png" class="project__img" alt="GraphQL Queries" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>GraphQL</h3>
+                        <span>GraphQL Queries to get data from Shopify</span>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/elliekim312/Python_refSeqAlignment_NGS"
+                    class="project"
+                    target="blank"
+                    data-type="data_science"
+                    >
+                    <img src="imgs/projects/Python_bioinformatics.jpeg" class="project__img" alt="Python RefFlat" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>Python with RefFlat data</h3>
+                        <span>Parse genomics sequence at Macrogen Corp</span>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/elliekim312/R_Boxplot"
+                    class="project"
+                    target="blank"
+                    data-type="data_science"
+                    >
+                    <img src="imgs/projects/R_Boxplot.png" class="project__img" alt="R Boxplots" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>R</h3>
+                        <span>Boxplots</span>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/elliekim312/R_CorrelationGraph"
+                    class="project"
+                    target="blank"
+                    data-type="data_science"
+                    >
+                    <img src="imgs/projects/R_CorrelationGraph.png" class="project__img" alt="R Correlation Graphs" style="width: 70%;">
+                    <div class="project__description">
+                        <h3>R</h3>
+                        <span>Correlation Graphs</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk!</h1>
+        <h2 class="contact__email">elliekim312@gmail.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/elliekim312" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/elliekim312" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <P class="contact__rights">2021 Ellie Kim - All rights reserved!</P>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow__up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
