@@ -69,6 +69,7 @@ arrowUp.addEventListener('click', () =>{
 const sectionIds = [
     'home',
     'about',
+    'experience',
     'skills',
     'works',
     'contact'
