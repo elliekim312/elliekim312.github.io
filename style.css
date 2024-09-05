@@ -464,6 +464,20 @@ p, span,
     --font-micro: 13px;
   }
 
+  h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  .home .home__contact {
+    font-size: 24px;
+  }
+
+  .home .home__description {
+    width: 250px;
+    margin: 0 auto;
+  }
+  
   .home .home__photo {
     width: 100px !important;
     height: 120px !important;
@@ -528,6 +542,7 @@ p, span,
   .works .work__categories .category__btn {
     margin: 4px 0 !important;
     width: 100%;
+    font-size: 20px;
   }
 
   .works .work__categories .project {
