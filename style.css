@@ -5,8 +5,8 @@
   --color-dark-white: #ffffffd0;
   --color-sky: #b5ccd4;
   --color-blue: #a4c0cc;
+  --color-dark-blue: #688ba2;
   --color-light-blue: #f7f9fa;
-  --color-dark-grey: #a6a6a6;
   --color-chocolate: #e9967a;
   --color-linen: #faf0e6;
   --color-grey: #778899;
@@ -54,9 +54,6 @@
 
 .text-align-center { text-align: center; }
 .text-align-left { text-align: left; }
-
-.border { 1px solid var(  --color-light-grey); }
-.border-bottom { 1px solid var(  --color-light-grey); }
 
 * {
   box-sizing: border-box;
@@ -106,7 +103,8 @@ button {
   font-family: var(--font-family);
 }
 
-p, span {
+p, span,
+.experience .about__experience .work .work-links li a {
   color: var(--color-dark-grey2);
 }
 
@@ -139,6 +137,9 @@ p, span {
   background-color: var(--color-blue);
   border-color: var(--color-white);
   border-radius: var(--size-border-radius);
+}
+.navbar.navbar--dark .navbar__menu .navbar__menu__item:hover {
+  background-color: var(--color-dark-blue);
 }
 
 .navbar .navbar__menu .navbar__menu__item.active {
@@ -242,6 +243,10 @@ p, span {
   border-radius: 15px;
   margin-right: 10px;
   font-weight: 500;
+}
+
+.experience .about__experience .work .work-links li a:hover {
+  color: black;
 }
 
 .skills {
