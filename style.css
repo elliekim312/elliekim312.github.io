@@ -477,7 +477,7 @@ p, span,
     width: 250px;
     margin: 0 auto;
   }
-  
+
   .home .home__photo {
     width: 100px !important;
     height: 120px !important;
@@ -560,5 +560,7 @@ p, span,
     line-height: 40px;
     right: 20px;
     bottom: 20px;
+    max-width: 40px;
+    min-width: 40px;
   }
 }
