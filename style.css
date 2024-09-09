@@ -446,6 +446,9 @@ p, span,
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--animation-duration) ease-in;
+  width: 65px;
+  height: 65px;
+  padding: 0;
 }
 
 .arrow__up.visible {
