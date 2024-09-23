@@ -229,9 +229,9 @@ p, span,
 }
 
 .experience .about__experience .work .work-period {
-  width: 400px;
-  max-width: 400px;
-  min-width: 400px;
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
   margin-right: 20px;
 }
 
